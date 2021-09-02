@@ -55,3 +55,29 @@ Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
 
+Answer 10: No, the local copy did not update.
+	
+Answer 11: 
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+Answer 12:
+warning: no common commits
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 13 (delta 1), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (13/13), done.
+From https://github.com/cw034119/git-lab
+ * [new branch]      main       -> origin/main
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> main
